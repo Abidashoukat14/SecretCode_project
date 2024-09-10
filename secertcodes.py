@@ -27,7 +27,7 @@ def decoding(Code,decodekey):
                 break
 
         if original_message is None:
-            print("Error: Invalid decode key. The key doesn't match any stored message.")
+            print("Error: Invalid decode key. The key doesn't match any stored message.\n")
             return
         for word in code:
               if(len(word)>=3):
@@ -40,9 +40,9 @@ def decoding(Code,decodekey):
         message_key_store[message] = decodekey
         print(f"         Decoded Message: {decoded_message}\n") 
         if decoded_message == original_message:
-            print("Decoded message successfully.")
+            print("             Decoded message successfully.\n")
         else:
-            print("Warning: Decoded message might not match the original message.")      
+            print("\nWarning: Decoded message might not match the original message.\n")      
     except Exception as e:
         print(f"Opps!Something Is Wrong.An Error Is Occured {e}\n")
 
