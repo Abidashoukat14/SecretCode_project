@@ -33,8 +33,7 @@ When decoding, the program strips away the random characters and reverses the tr
 
 **Clone the Repository:**
 
-`git clone https://github.com/your-username/secret-code-project.git
-cd secret-code-project`
+`git clone https://github.com/Abidashoukat14/SecretCode_project`
 
 **Run the Program:**
 
